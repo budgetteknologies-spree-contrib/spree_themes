@@ -1,4 +1,4 @@
-class VinsolSpreeThemesCreateThemesAndThemesTemplatesTable < ActiveRecord::Migration[5.0]
+class SpreeThemesCreateThemesAndThemesTemplatesTable < ActiveRecord::Migration[5.0]
 
   def change
     create_table :spree_themes do |t|

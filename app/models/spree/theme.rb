@@ -5,7 +5,7 @@ module Spree
     DEFAULT_STATE = 'drafted'
     TEMPLATE_FILE_CONTENT_TYPE = 'application/zip'
     STATES = %w(drafted compiled published)
-    THEMES_PATH = File.join(Rails.root, 'public', 'vinsol_spree_themes')
+    THEMES_PATH = File.join(Rails.root, 'public', 'spree_themes')
     CURRENT_THEME_PATH = File.join(THEMES_PATH, 'current')
     ASSET_CACHE_PATH = File.join(Rails.root, 'tmp', 'cache')
 

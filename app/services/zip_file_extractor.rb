@@ -2,7 +2,7 @@ require 'zip'
 
 class ZipFileExtractor
 
-  OUTPUT_PATH = File.join('public', 'vinsol_spree_themes')
+  OUTPUT_PATH = File.join('public', 'spree_themes')
   IGNORED_FILES_REGEX = /\/(\.|__)/
 
   attr_reader :file_path, :theme

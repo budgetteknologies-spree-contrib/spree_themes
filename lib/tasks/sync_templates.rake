@@ -10,7 +10,7 @@ namespace :db do
       INVALID_DIRECTORIES = ['.', '..', 'precompiled_assets']
 
       theme = Spree::Theme.where(name: ENV['THEME_NAME']).first
-      THEME_PATH = File.join('public', 'vinsol_spree_themes', theme.name)
+      THEME_PATH = File.join('public', 'spree_themes', theme.name)
 
       @filepaths_arr = []
 

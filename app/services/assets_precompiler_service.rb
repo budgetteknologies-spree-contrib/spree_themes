@@ -2,9 +2,9 @@ class AssetsPrecompilerService
 
   attr_reader :theme, :env, :manifest
 
-  PUBLIC_PRECOMPILED_ASSET_PATH = File.join('public', 'assets', 'vinsol_spree_theme')
-  PUBLIC_PRECOMPILED_ASSET_PATH_FOR_PREVIEW = File.join('public', 'assets', 'preview_vinsol_spree_theme')
-  THEME_PATH = File.join('public', 'vinsol_spree_themes')
+  PUBLIC_PRECOMPILED_ASSET_PATH = File.join('public', 'assets', 'spree_theme')
+  PUBLIC_PRECOMPILED_ASSET_PATH_FOR_PREVIEW = File.join('public', 'assets', 'preview_spree_theme')
+  THEME_PATH = File.join('public', 'spree_themes')
   CURRENT_THEME_PATH = File.join(THEME_PATH, 'current')
 
   def initialize(theme)

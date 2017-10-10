@@ -1,8 +1,8 @@
-module VinsolSpreeThemes
+module SpreeThemes
   class Engine < Rails::Engine
     require 'spree/core'
     isolate_namespace Spree
-    engine_name 'vinsol_spree_themes'
+    engine_name 'spree_themes'
 
     # use rspec for tests
     config.generators do |g|
